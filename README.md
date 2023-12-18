@@ -31,7 +31,7 @@ Youtube [Reference](https://www.youtube.com/watch?v=sz4slPFwEvs "SETUP").
 
 
 
-## Deployment
+## Run and Deployment
 
 To run this project run
 
@@ -46,8 +46,16 @@ To Build apk for this project run
 
 
 ## Screenshots
-![Screenshot_2023-12-18-20-56-19-89 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/c6e21f8e-391e-4967-9d0a-857c021c3d32)
-![Screenshot_2023-12-18-20-56-14-56 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/13c09049-ce66-4e88-9fa3-4a330b365d29)
-![Screenshot_2023-12-18-20-55-39-07 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/dc1a05ef-602a-419e-8f39-3ba8c4804ee6)
-![Screenshot_2023-12-18-20-56-03-15 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/30f227db-0452-4caf-86f2-9a3993103264)
+
+<img src="https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/c6e21f8e-391e-4967-9d0a-857c021c3d32" alt="signup" style="width: 100px;
+    height: 200px;object-fit:contain;">
+<img src="https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/13c09049-ce66-4e88-9fa3-4a330b365d29" alt="login" style="width: 100px;
+    height: 200px;object-fit:contain;">
+<img src="https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/dc1a05ef-602a-419e-8f39-3ba8c4804ee6" alt="flash screen" style="width: 100px;
+    height: 200px;object-fit:contain;">
+<img src="https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/30f227db-0452-4caf-86f2-9a3993103264" alt="home" style="width: 100px;
+    height: 200px;object-fit:contain;">
+
+    
+
 
