@@ -17,7 +17,6 @@ class ResetPasswordController extends GetxController {
 
   sendPasswordResetEmail() async {
     try {
-      isLoading.value = true;
       final isConnected = await NetworkManager.instance.isConnected();
       if (!isConnected) {
         return;
@@ -25,6 +24,7 @@ class ResetPasswordController extends GetxController {
       if (!resetPasswordFormKey.currentState!.validate()) {
         return;
       }
+      isLoading.value = true;
       await AuthenticationRepository.instance
           .sendPasswordResetEmail(email.text.trim());
 

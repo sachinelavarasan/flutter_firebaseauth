@@ -1,7 +1,7 @@
 import "dart:async";
 
 import "package:demo_app/data/repositories/authentications/authentication_repository.dart";
-import "package:demo_app/features/authentication/controllers/signup/success_screen.dart";
+import "package:demo_app/features/authentication/screens/signin/success_screen.dart";
 import "package:demo_app/utils/loaders.dart";
 import "package:firebase_auth/firebase_auth.dart";
 import "package:get/get.dart";

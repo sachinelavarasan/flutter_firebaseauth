@@ -29,7 +29,6 @@ class LogInController extends GetxController {
 
   Future<void> login() async {
     try {
-      isLoading.value = true;
       final isConnected = await NetworkManager.instance.isConnected();
       if (!isConnected) {
         return;
@@ -37,6 +36,7 @@ class LogInController extends GetxController {
       if (!loginFormKey.currentState!.validate()) {
         return;
       }
+      isLoading.value = true;
 
       if (rememberMe.value) {
         storage.write("REMEMBER_ME_EMAIL", email.text.trim());
