@@ -58,7 +58,7 @@ To Build apk for this project run
 
 ## Application build
 
-Android Build [Reference](https://github.com/sachinelavarasan/flutter_firebaseauth/blob/main/assets/apk/app-release.apk "APK").
+Android Build   [APK](https://github.com/sachinelavarasan/flutter_firebaseauth/blob/main/assets/apk/app-release.apk "APK").
 
     
 
