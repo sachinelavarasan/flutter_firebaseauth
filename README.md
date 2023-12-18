@@ -1,17 +1,53 @@
-# demo_app
 
-A new Flutter project.
+# SHOPPING CART
 
-## Getting Started
+This flutter application uses Google and email addresses for Firebase authentication. It can serve as a basic authentication template.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# flutter_firebaseauth" 
+Technologies used in \
+	1.Dart \
+	2.Flutter \
+	3.GetX \
+	4.Get Storage \
+	5.Firebase (Firestore , Authentication).
+
+GetX [Reference](https://pub.dev/packages/get "GETX"). \
+Get Storage [Reference](https://pub.dev/packages/get_storage "GET STORAGE").
+
+## Requirements
+
+To run this project, you will need to add the following requirement
+
+`firebase_option.dart`
+
+You must first create an app on Firebase.
+
+Youtube [Reference](https://www.youtube.com/watch?v=sz4slPFwEvs "SETUP"). 
+
+
+
+
+
+## Deployment
+
+To run this project run
+
+```bash
+  flutter run
+```
+To Build apk for this project run
+
+```bash
+  flutter build apk --release
+```
+
+
+## Screenshots
+![Screenshot_2023-12-18-20-56-19-89 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/c6e21f8e-391e-4967-9d0a-857c021c3d32)
+![Screenshot_2023-12-18-20-56-14-56 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/13c09049-ce66-4e88-9fa3-4a330b365d29)
+![Screenshot_2023-12-18-20-55-39-07 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/dc1a05ef-602a-419e-8f39-3ba8c4804ee6)
+![Screenshot_2023-12-18-20-56-03-15 1](https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/30f227db-0452-4caf-86f2-9a3993103264)
+
