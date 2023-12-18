@@ -19,8 +19,8 @@ class ProfileScreen extends StatelessWidget {
           padding:
               const EdgeInsets.only(top: 56, bottom: 20, left: 20, right: 20),
           child: Card(
-            elevation: 1.0,
-            color: Colors.white60,
+            elevation: 2.0,
+            color: Colors.white,
             child: SizedBox(
               width: HelperFunctions.screenWidth(),
               height: HelperFunctions.screenHeight() * 0.7,

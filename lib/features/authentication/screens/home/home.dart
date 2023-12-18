@@ -14,13 +14,18 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
+        backgroundColor: Colors.blue,
         title: Obx(
-          () => Text(usercontroller.user.value.fullName),
+          () => Text(usercontroller.user.value.fullName,
+              style: const TextStyle(color: Colors.white)),
         ),
         actions: [
           IconButton(
               onPressed: () => controller.logOut(),
-              icon: const Icon(Icons.logout))
+              icon: const Icon(
+                Icons.logout,
+                color: Colors.white,
+              ))
         ],
       ),
       backgroundColor: Colors.grey[100],

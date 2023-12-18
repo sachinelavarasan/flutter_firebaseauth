@@ -24,7 +24,6 @@ class SignUpController extends GetxController {
 
   void signup() async {
     try {
-      isLoading.value = true;
       final isConnected = await NetworkManager.instance.isConnected();
       if (!isConnected) {
         return;
@@ -32,6 +31,7 @@ class SignUpController extends GetxController {
       if (!signUpFormKey.currentState!.validate()) {
         return;
       }
+      isLoading.value = true;
 
       final userCredential = await AuthenticationRepository.instance
           .registerWithEmailPassword(email.text.trim(), password.text.trim());
