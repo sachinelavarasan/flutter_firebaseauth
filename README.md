@@ -56,6 +56,10 @@ To Build apk for this project run
 <img src="https://github.com/sachinelavarasan/flutter_firebaseauth/assets/31089822/30f227db-0452-4caf-86f2-9a3993103264" alt="home" style="width: 100px;
     height: 200px;object-fit:contain;">
 
+## Application build
+
+Android Build [Reference](https://github.com/sachinelavarasan/flutter_firebaseauth/blob/main/assets/apk/app-release.apk "APK").
+
     
 
 
